@@ -20,11 +20,11 @@
 .container h1 img {
   width: 60px;
 }
-.container button img {
+.container .btn img {
   width: 25px;
   margin-right: 8px;
 }
-.container button {
+.container .btn {
   display: flex;
   align-items: center;
   background: linear-gradient(#9418fd, #571094);
@@ -49,10 +49,22 @@
   outline: none;
   border-radius: 5px;
 }
-.input_box img {
+.input_box .img1 {
   width: 25px;
   position: absolute;
   bottom: 15px;
   right: 15px;
+  cursor: pointer;
+}
+.btn_copy {
+  background-color: #9418fd;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  position: absolute;
+  bottom: 9px;
+  right: 55px;
   cursor: pointer;
 }
